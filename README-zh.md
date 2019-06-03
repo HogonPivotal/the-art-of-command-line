@@ -64,6 +64,8 @@
 - 学会使用 `ssh` 进行远程命令行登录，最好知道如何使用 `ssh-agent`，`ssh-add` 等命令来实现基础的无密码认证登录。
 
 - 学会基本的文件管理工具：`ls` 和 `ls -l` （了解 `ls -l` 中每一列代表的意义），`less`，`head`，`tail` 和 `tail -f` （甚至 `less +F`），`ln` 和 `ln -s` （了解硬链接与软链接的区别），`chown`，`chmod`，`du` （硬盘使用情况概述：`du -hs *`）。 关于文件系统的管理，学习 `df`，`mount`，`fdisk`，`mkfs`，`lsblk`。知道 inode 是什么（与 `ls -i` 和 `df -i` 等命令相关）。
+- `ls` 中比较有用的包括`-u 最后使用时间`,`-l long format长格式中包括了一些列信息`,`-t按照时间排序`,`-T 显示详细的时间戳格式`
+
 
 - 学习基本的网络管理工具：`ip` 或 `ifconfig`，`dig`。
 
